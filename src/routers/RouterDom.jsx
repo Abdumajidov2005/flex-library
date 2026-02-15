@@ -4,6 +4,7 @@ import Navbar from "../components/navbar/Navbar";
 import Home from "../pages/home/Home";
 import About from "../pages/about/About";
 import Footer from "../components/footer/Footer";
+import Servises from "../pages/servises/Servises";
 
 function RouterDom() {
   return (
@@ -13,6 +14,7 @@ function RouterDom() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/" element={<About />} />
+          <Route path="/servises" element={<Servises />} />
         </Routes>
         <Footer />
       </BrowserRouter>
